@@ -19,6 +19,4 @@ It simplifies machine learning model selection, training, and evaluation — for
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/Diksha-3905/eduAutoML.git
-cd eduAutoML
-pip install -e .
+pip install eduautoml
