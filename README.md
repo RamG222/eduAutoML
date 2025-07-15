@@ -20,3 +20,34 @@ It simplifies machine learning model selection, training, and evaluation — for
 
 ```bash
 pip install eduautoml
+
+
+## CLI Usage
+
+eduautoml run --input path/to/your.csv --target target_column
+
+Example:
+
+eduautoml run --input sample.csv --target species
+
+🔍 Features
+✅ Auto detection of best classification model
+
+✅ CLI interface with Typer
+
+✅ Preprocessing: missing value imputation, one-hot encoding, scaling
+
+✅ Model evaluation: accuracy, precision, recall, F1, confusion matrix
+
+✅ Stratified train-test split
+
+✅ Beginner-friendly and well-commented codebase
+
+🛠️ Upcoming Features
+📊 Auto EDA using pandas-profiling / sweetviz
+
+🧠 Regression support (Linear, XGBoost, etc.)
+
+🖼️ Gradio-based drag-and-drop GUI
+
+📈 Model performance visualization
